@@ -17,6 +17,7 @@ onMounted(()=>{
 
 <template>
 
+  <h1>Student Sign In</h1>
   <NewStudentForm></NewStudentForm>
   <StudentTable></StudentTable>/
   <StudentMessage></StudentMessage>
@@ -43,6 +44,11 @@ th, tr {
 .absent {
   color: black;
   font-weight: bold;
+}
+
+h1{
+  margin-top: 10px;
+
 }
 
 
